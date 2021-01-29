@@ -1,0 +1,82 @@
+html, input, textarea{
+    background-color: rgb(97, 97, 97);
+    color: white;
+    border-color: white;
+}
+
+html a{color: white}
+
+table.contactus td svg{fill: black}
+    
+table.contactus td a:hover svg{fill: white;}
+
+table.contactus td a:hover p{color: white;}
+    
+textarea#title:focus, input#author:focus, textarea#article:focus{box-shadow: 0 0 5px .2px white}
+
+nav{background-color: rgb(89, 89, 89);}
+    
+div.topper{box-shadow:  0 .1rem 1rem #000000;}
+
+table.contactus td{border-color: #0b0512; }
+
+table.contactus td a:hover svg{fill: brown;}
+
+table.contactus td a:hover p{color: brown;}
+    
+nav > ul li a, nav header h1 a{color: white}
+    
+nav > ul li a:hover{background-color: rgba(163, 163, 163, 0.219);}
+    
+fieldset{border-color: white;}
+    
+textarea#title:focus, input#author:focus, textarea#article:focus{box-shadow: 0 0 5px .2px white}
+    
+div > small{color: rgb(255, 255, 255)}
+
+small#slee{color: white;}
+
+div.form select{background-color: rgb(120, 120, 120); color: white}
+
+div.form input{background-color: rgb(120, 120, 120); color: white}
+
+button#ff-utility-show{background-color: rgb(120, 120, 120); color: white}
+
+input#ff-utility:hover + button[id|=ff-utility-show]{box-shadow: 0 0 5px 1px black;}
+
+input#ff-utility:focus + button[id|=ff-utility-show]{box-shadow: 0 0 5px 2px black;}
+
+button#ff-utility-show-yes{background-color: rgb(98, 199, 115);}
+
+input#ff-utility:hover + button[id|=ff-utility-show-yes]{box-shadow: 0 0 5px 1px green;}
+
+input#ff-utility:focus + button[id|=ff-utility-show-yes]{box-shadow: 0 0 5px 2px green;}
+
+div#file-upload{background-color: rgb(120, 120, 120);}
+
+div.checkbox-container a{color: skyblue;}
+
+input#subsignup{background-color: rgb(61, 61, 61);}
+
+div.form > small{color: rgb(226, 226, 226);}
+
+input#subsignup:hover{
+    border: none;
+    background-color: rgb(61, 61, 61);
+    box-shadow: 0 0 15px 5px rgb(61, 61, 61);
+    color: white;
+}
+
+footer{background-color: rgb(89, 89, 89);}
+
+@media screen and (max-width: 550px){
+    nav > ul:before{
+        background: linear-gradient(rgb(89, 89, 89), grey);
+        transition: opacity 3s;
+        opacity: 1;
+    }
+
+    nav > header > h1 > span:hover{
+        color: rgb(58, 58, 58);
+    }
+}
